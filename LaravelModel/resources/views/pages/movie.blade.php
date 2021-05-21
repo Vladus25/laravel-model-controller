@@ -11,6 +11,6 @@
         <li><h1>Vote: {{ $movie -> vote }}</h1></li>
       </ul>
     </div>
-    <a class="home" href="http://localhost:8000/">List Movies</a>
+    <a class="home" href="{{route('home')}}">List Movies</a>
   </main>
 @endsection
